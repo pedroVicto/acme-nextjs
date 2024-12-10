@@ -4,7 +4,9 @@ import Link from 'next/link';
 import { lusitana } from '@/app/ui/fonts';
 import Image from 'next/image';
 
+export const experimental_ppr = true
 export default function Page() {
+  
   return (
     <div>
       <main className="flex min-h-screen flex-col p-6">
